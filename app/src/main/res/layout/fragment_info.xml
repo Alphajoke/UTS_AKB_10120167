@@ -14,15 +14,6 @@
         android:layout_gravity="center_horizontal"
         >
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:src="@drawable/notemelogo"
-            android:layout_gravity="center_horizontal">
-        </ImageView>
-
-
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +24,7 @@
             android:textAlignment="center"
             android:fontFamily="@font/livvic_bold"
             android:textColor="@color/black"
-            android:text="Aplikasi NOTEME merupakan aplikasi catatan yang bisa kamu gunakan untuk mencatat hal hal penting dan ide ide kreatif agar kamu bisa lebih produktif"/>
+            android:text="Aplikasi ini dibuat untuk Mengerjakan Tugas UTS"/>
 
         "
     </LinearLayout>

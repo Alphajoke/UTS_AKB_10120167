@@ -1,9 +1,11 @@
-package com.rizkyrazak.uts_akb_10120167;
+package com.bintang.uts_akb_10120167;
 
-/* NIM      : 10119118
- * NAMA      : Rizky Septiana Abdul Razak
- * KELAS     : IF - 3 */
-
+/*
+Nama    : Bintang Zulhikman Hakim
+NIM     : 10120167
+Kelas   : IF-4
+Matkul  : Aplikasi Komputer Bergerak
+*/
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 

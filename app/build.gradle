@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.rizkyrazak.uts_akb_10120167"
+        applicationId "com.bintang.uts_akb_10120167"
         minSdk 29
         targetSdk 32
         versionCode 1

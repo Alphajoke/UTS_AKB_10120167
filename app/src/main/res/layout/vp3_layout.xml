@@ -11,12 +11,6 @@
         android:layout_height="15dp"
         android:layout_marginTop="100dp"
         android:src="@drawable/viewpagerindicator3"/>
-    <ImageView
-        android:id="@+id/gambarViewPager2"
-        android:layout_width="350dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/slider3"/>
 
     <TextView
         android:layout_width="200dp"
@@ -24,7 +18,7 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/livvic_bold"
-        android:text="PRODUKTIF"
+        android:text="AKB"
         android:textColor="@color/black"
         android:textSize="24dp"
         android:textAlignment="center"/>
@@ -36,6 +30,6 @@
         android:fontFamily="@font/livvic_thin"
         android:textColor="@color/black"
         android:textSize="20dp"
-        android:text="Catat semua hal penting agar lebih produktif"
+        android:text="Tugas UTS"
         android:textAlignment="center"/>
 </LinearLayout>

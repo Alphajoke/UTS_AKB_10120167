@@ -8,11 +8,11 @@
     tools:context=".SplashScreen">
 
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="100dp"
+        android:layout_width="405dp"
+        android:layout_height="378dp"
         android:layout_centerInParent="true"
         android:backgroundTint="#FFFFFF"
-        android:textAlignment="center"
-        android:src="@drawable/notemelogo" />
+        android:src="@drawable/motemelogo"
+        android:textAlignment="center" />
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.rizkyrazak.uts_akb_10120167;
+package com.bintang.uts_akb_10120167;
 
 import org.junit.Test;
 

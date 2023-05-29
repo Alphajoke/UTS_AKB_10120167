@@ -1,5 +1,10 @@
-package com.rizkyrazak.uts_akb_10120167;
-
+package com.bintang.uts_akb_10120167;
+/*
+Nama    : Bintang Zulhikman Hakim
+NIM     : 10120167
+Kelas   : IF-4
+Matkul  : Aplikasi Komputer Bergerak
+*/
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;

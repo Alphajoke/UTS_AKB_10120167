@@ -11,12 +11,6 @@
         android:layout_height="15dp"
         android:layout_marginTop="100dp"
         android:src="@drawable/viewpagerindicator1"/>
-    <ImageView
-        android:id="@+id/gambarViewPager1"
-        android:layout_width="350dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="75dp"
-        android:src="@drawable/slider3"/>
 
     <TextView
         android:layout_width="300dp"
@@ -24,7 +18,7 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/livvic_bold"
-        android:text="SELAMAT DATANG DI NOTEME"
+        android:text="SELAMAT DATANG "
         android:textColor="@color/black"
         android:textSize="24dp"
         android:textAlignment="center"/>
