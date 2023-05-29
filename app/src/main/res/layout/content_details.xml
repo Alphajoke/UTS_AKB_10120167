@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_notes_detail"
+    android:orientation="vertical"
+    tools:context=".NotesDetail"
+    >
+    <TextView
+        android:id="@+id/noteDateDetail"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="16dp"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:id="@+id/noteTitleDetail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:shadowColor="@color/black"
+        android:hint="Judul"/>
+
+    <TextView
+        android:id="@+id/noteCategoriesDetail"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:shadowColor="@color/black"
+        android:hint="Kategori"/>
+
+    <TextView
+        android:id="@+id/noteDetail"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="top"
+        android:textSize="20dp"
+        android:hint="Catatan"
+        android:inputType="textCapSentences|textMultiLine"/>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditNotesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarEditNote"
+        android:layout_width="match_parent"
+        android:background="@color/yellow"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Edit Note"
+        app:titleTextColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/noteDateEdit"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_gravity="right"/>
+
+    <EditText
+        android:id="@+id/noteTitleEdit"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@null"
+        android:textSize="20dp"
+        android:shadowColor="@color/black"
+        android:hint="Judul"/>
+
+    <EditText
+        android:id="@+id/noteCategoriesEdit"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@null"
+        android:textSize="20dp"
+        android:shadowColor="@color/black"
+        android:hint="Kategori"/>
+
+    <EditText
+        android:id="@+id/noteEdit"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@null"
+        android:gravity="top"
+        android:textSize="20dp"
+        android:hint="Catatan"
+        android:inputType="textCapSentences|textMultiLine"/>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/notemelogo"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/profilepic"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/livvic_bold"
+                android:textColor="@color/black"
+                android:text="NIM : 10119118">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/livvic_bold"
+                android:textColor="@color/black"
+                android:text="Kelas : IF - 3">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/livvic_bold"
+                android:textColor="@color/black"
+                android:text="Nama : Rizky Septiana Abdul Razak">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/livvic_bold"
+                android:textColor="@color/black"
+                android:text="Email : septianaarrizky@gmail.com ">
+            </TextView>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <!-- TODO: Update blank fragment layout -->
+
+    </LinearLayout>
+
+</FrameLayout>

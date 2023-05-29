@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/notemelogo"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/livvic_bold"
+            android:textColor="@color/black"
+            android:text="Aplikasi NOTEME merupakan aplikasi catatan yang bisa kamu gunakan untuk mencatat hal hal penting dan ide ide kreatif agar kamu bisa lebih produktif"/>
+
+        "
+    </LinearLayout>
+
+</FrameLayout>
